@@ -1,0 +1,99 @@
+Mini Project - SQL: From Data to Insight
+Unit 4 - SQL
+
+Day 1
+
+Weekly Kick Off
+
+Group Lab Review
+
+Introduction to Databases
+
+Introduction to SQL
+
+Lab | MySQL Database Creation
+
+Mini Project - SQL: From Data to Insight
+
+Mini Project Rubric
+
+Mini Project: Day 1 Checklist
+
+Daily Wrap Up
+
+Video recordings
+
+Mini Project - SQL: From Data to Insight
+MINI PROJECT
+
+
+
+Overview
+In this mini project you will dive into the world of SQL through creating and populating a database of your own and then extracting meaningful insights through SQL using queries and Python visualization techniques. You have the freedom to choose your own data, the sources it originates from, and the business case you wish to cater to.
+
+Setup
+In this Mini Project you will work in pairs, and are required to organize how to divide tasks throughout the week.
+
+Brief
+In this project, you’ll start by selecting and exploring datasets of your choice from various sources like Kaggle, APIs, or through web scraping. If you choose to use more than one, ensure they complement each other for a cohesive analysis. You will then formulate hypotheses related to the datasets selected. The goal is to craft a narrative using the data. You’ll sketch out an Entity-Relationship Diagram (ERD) highlighting significant data fields and relationships, then proceed to create and populate a functional database. During the process, you will carry out data wrangling to clean your datasets and prepare them for analysis. You will use SQL to run queries, derive valuable insights, and summarize your findings. To conclude, you’ll visualize the derived insights using Python libraries and compile a comprehensive report, encapsulating your data story from exploration to insights.
+
+Daily Tasks
+Day 1: Project Initiation & Data Selection
+<<<<<<< HEAD
+
+Data Selection: Begin by exploring potential datasets from a variety of sources such as CSV files (available online or in platforms like Kaggle), web scraping or APIs. You may also revisit the datasets you explored in week 3. In case you need help finding a dataset, at the end of this brief, we’ve included a list of famous datasets that you could work with. =======
+Data Selection: Begin by exploring potential datasets from a variety of sources such as CSV files (available online or in platforms like Kaggle), web scraping or APIs. You may also revisit the datasets you explored in week 3.
+642bacd055cb986bc2a2e0599c81c72d49c3fcc6
+
+Business Framing: Clearly articulate the business challenge you’re addressing. Craft hypotheses to guide your exploration.
+Project Planning: Map out your project’s trajectory using tools like Jira or Trello.
+Extract: retrieve data from various sources. Examine the data and try to understand what the fields mean before building the database.
+Day 2: Data Examination & Schema Design
+Database Design & Creation:
+Engage with your data to discern the significance of each field.
+Sketch an Entity-Relational-Model, highlighting primary keys, foreign keys, and table relationships.
+Translate the ERD into a functional database.
+Make sure to also define the proper data types for each column.
+Transform:
+Do data wrangling to transform your dataset according to your analysis goals.
+Load:
+Safely import the sanitized data into your database, upholding its structural and data integrity.
+Day 3: SQL Queries & Analysis
+SQL Queries and Insights: use SQL commands to derive insights.
+Leverage functionalities like JOIN, GROUP BY, ORDER BY, CASE, and subqueries.
+Summarize the data using mean, max, min, std and more.
+Day 4: Analysis and Visualization
+Data Visualizations: use Python libraries to create compelling visual representations of your findings.
+Report Compilation and finalization: Synthesize all the analysis and insights into a comprehensive report that narrates your data story.
+Presentation: Design a compelling presentation that encapsulates the essence of your project, challenges, insights, and outcomes (see more details below).
+Deliverables
+The main deliverable is a GitHub repository with the name sql-database. It should contain the following:
+
+A README.md file in the root of the repository to document the project containing useful information about the project. Anyone that reads the README should be able to understand the project without having to look through all of the files.
+Code and files that demonstrate the data pipeline coverage of acquisition, transformation, loading, analysis, and reporting. This includes:
+Database: The exported .sql file should be included with the final schema.
+Entity relationship diagram (ERD).
+SQL Queries: A compilation of all SQL queries used during the project.
+Python files. Remember, when using Python the code must be put in wrapped functions.
+At least 1 Jupyter notebook containing the report in full with visualizations.
+The report should be comprehensive and aesthetically pleasing, that narrates the story of your data in full. The report should combine text, clean code, meaningful outputs, and engaging visualizations to convey the derived insights and conclusions effectively.
+Make sure to modularize your work. The Jupyter notebook report must be distinct from the code responsible for cleaning, acquiring, processing data, etc. Feel free to use multiple Jupyter notebooks, .py or .sql modules for this.
+URL of the slides for the presentation:
+The presentation (see guidelines below) should summarize your insights and conclusions.
+Remember to include your ERD diagram. You should explain it during the presentation, and defend the decisions made.
+Minimum Requirements
+Research Objectives:
+Define at least two clear research questions or problem statements.
+Analyze data effectively to address these questions, ensuring the results are presented in an understandable and coherent manner.
+Data Acquisition:
+Utilize a minimum of two distinct sources for your data, such as CSV files, web scraping, or APIs.
+Database Structure:
+Design a database incorporating a minimum of three tables.
+Make sure to apply suitable primary and foreign keys and delineate the relationships between tables.
+Data Management:
+Efficiently import data into your database using the right tools and methods.
+Clean, format, restructure, and categorize the data to maintain consistency and accuracy.
+Data Analysis:
+Craft at least five insightful SQL queries using fundamental clauses like GROUP BY, JOIN, and Subqueries.
+Visualization:
+Produce a minimum of two compelling visualizations using tools such as Matplotlib or Seaborn
